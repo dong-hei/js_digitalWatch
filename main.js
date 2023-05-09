@@ -1,4 +1,4 @@
-let handleId = 0; // 동작에 대한 id 저장
+let handleId = 0; 
 
 const h1 = document.getElementById("time")
 const go = document.getElementById("go")
@@ -16,7 +16,7 @@ function getTime(){
 go.onclick = function(){
     if(handleId == 0){
         handleId = setInterval(getTime, 1000)
-    } //1000ms마다 getTime을 사용하겠다.
+    } 
 }
 
 stop.onclick = function(){
