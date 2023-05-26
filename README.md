@@ -2,9 +2,9 @@
 <br></br>
 let handleId = 0; // 동작에 대한 id 저장
 <br></br>
-const h1 = document.getElementById("time")
-const go = document.getElementById("go")
-const stop = document.getElementById("stop")
+const h1 = document.getElementById("time")<br></br>
+const go = document.getElementById("go")<br></br>
+const stop = document.getElementById("stop")<br></br>
 time, go , stop 변수 선언 
 <br></br>
 
