@@ -14,6 +14,7 @@ getTime(){
 시간,분,초를 선언하고 불러온다
 <p></p>
 선언된 시간,분,초를 동적쿼리로 time부에 선언한다.
+<p></p>
 const time = `${hour}:${minutes}:${seconds}`
 <p></p>
 }
